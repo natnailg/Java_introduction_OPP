@@ -1,0 +1,45 @@
+What is Opp
+- to break complex problems into smaller objects
+
+what are objects(we will get back to this after class )
+- they can also be thought of instances of classes
+- objects are entity that has a state and behavior
+    - a bike is an object
+
+What is a class?
+- we cna think of a class as a blueprint for an object.
+- using that blue print we can create many objects
+- classes contain two things, fields and methods  (which are also called members) 
+    - fields
+        - these variables that store data
+    - methods
+        - these are functions that perform some specific operation
+
+    - EX:
+        -class Bicycle {
+
+           // state or field
+           private int gear = 5;
+           // behavior or method
+           public void braking() {
+                System.out.println("Working of Braking");
+           }
+        }
+
+Getting back to objects
+    - we have said objects are instance of classes lets see how..
+    - in the above example we have seen "Bicycle" as a class (a blueprint for other houses)
+    - if we were to create an object/instances from that classes lets say for the different kinds of bikes
+    - it would look something like this...
+        - sporting && touringBicycle ex:
+            - Bicycle sportBicycle = new Bicycle();
+            - Bicycle touringBicycle = new Bicycle();
+    - so if we see the above example we have:
+        - class name
+        - folloed by the new object/instance created from that class
+        - equal
+        - new (creating the new objct)
+        - the Bicycle() constructor
+         classname objct = new constructor()
+
+         
