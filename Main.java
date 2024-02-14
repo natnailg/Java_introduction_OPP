@@ -7,7 +7,7 @@ public class Main {
         Bicycle sportsBicycle = new Bicycle();
 
         //creating touringBicycle object
-        Bicycle touringBicycle = new Bicycle();
+//        Bicycle touringBicycle = new Bicycle();
 
 
         //access feilds and methods
